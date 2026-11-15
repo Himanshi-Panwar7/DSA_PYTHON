@@ -1,1 +1,1 @@
-9_month DSA mastery in python
+DSA mastery

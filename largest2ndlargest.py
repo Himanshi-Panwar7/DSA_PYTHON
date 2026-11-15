@@ -1,5 +1,5 @@
 class Solution:
-    def largest_secondlargest(self,nums: list[int]) -> (int,int):
+    def largest_secondlargest(self,nums: list[int]) -> tuple[int,int]:
         largest= float('-inf')
         second_largest=float('inf')
         if len(nums)< 2:

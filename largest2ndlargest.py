@@ -1,7 +1,7 @@
 class Solution:
     def largest_secondlargest(self,nums: list[int]) -> tuple[int,int]:
         largest= float('-inf')
-        second_largest=float('inf')
+        second_largest=float('-inf')
         if len(nums)< 2:
             return (-1,-1)
         for i in nums:

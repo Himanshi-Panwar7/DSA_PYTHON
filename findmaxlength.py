@@ -1,5 +1,5 @@
 class Solution:
-    def findMaxLength(self, nums: List[int]) -> int:
+    def findMaxLength(self, nums: list[int]) -> int:
         first_seen={0:-1}
         running_length=0
         max_length=0
